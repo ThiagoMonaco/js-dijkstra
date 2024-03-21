@@ -1,6 +1,4 @@
 import dijkstra from "./dijkstra.js"
-console.log('Hello, world!');
-
 
 const graph = [
     [null, 1, 3, null],
@@ -10,7 +8,7 @@ const graph = [
 ]
 
 const result = dijkstra(graph, 0, 3)
-console.log(result) // [0, 3]
+console.log(result) // [0,2, 3]
 
 const graph2 = [
     [null, 1, 3, null],
